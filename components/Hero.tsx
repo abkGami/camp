@@ -46,7 +46,12 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button
+            type="button"
+            title="Download App"
+            variant="btn_green"
+            hover="hover:bg-green-900"
+          />
           <Button
             type="button"
             title="How we work?"
